@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #68577e;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.container {
+	position: relative;
+	display: initial;
+}
+
+.tv-back {
+	position: absolute;
+	background: #413a49;
+	width: 90vw;
+	height: 75vw;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: 10vw;
+}
+
+.tv-content {
+	position: relative;
+	width: 80vw;
+	height: 65vw;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: 15vw;
+}
+
+.denmoku {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+    margin-top: 10vh;
+}
+
+.denmoku-back {
+	position: absolute;
+	background: #413a49;
+	width: 90vw;
+	height: 75vw;
+	border-radius: 20px;
+	z-index: -1;
+}
+
+.denmoku button {
+	margin: 10px;
+	width: 65vw;
+	height: 15vw;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.denmoku button:focus {
+	background: #bcbcbc;
+}
+
+
